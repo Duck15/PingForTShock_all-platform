@@ -1,8 +1,6 @@
 name: Build + Deploy
 
-on: 
-  release:
-    types: [prereleased,released]
+on: [push]
 
 defaults:
   run:
